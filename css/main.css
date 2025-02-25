@@ -4,3 +4,77 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "Huawei Sans";
+  src: url("font/HuaweiSans.eot");
+  src: url("font/HuaweiSans.eot?#iefix") format("embedded-opentype"),
+    url("font/HuaweiSans.woff2") format("woff2"),
+    url("font/HuaweiSans.woff") format("woff"),
+    url("font/HuaweiSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.container-fluid {
+}
+/*************************************** first part **************************/
+.nav1 {
+  height: 25px;
+  background-color: black;
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+}
+.nav1 li a {
+  text-decoration: none;
+  display: block;
+  color: lightgray;
+}
+.nav1 i {
+  font-size: x-small;
+}
+/*************************************** second part *************************/
+.nav2 {
+  height: 78px;
+  background-color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 16px;
+  right: 0;
+}
+.nav2 li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.bi {
+  font-size: x-small;
+  color: white;
+}
+.nav2 li:hover .bi {
+  color: black;
+}
+.search {
+  font-size: 20px;
+  align-items: end;
+}
+/*************************************** third part *************************/
+.box3 {
+  position: relative;
+}
+.button1 {
+  position: absolute;
+  left: 59%;
+  top: 330px;
+}
+/*************************************** 4th part *************************/
+.box4 {
+  align-items: center;
+  text-align: center;
+}
