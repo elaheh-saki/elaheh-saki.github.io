@@ -1,8 +1,8 @@
 * {
-  border: 0;
-  outline: 0;
-  margin: 0;
-  padding: 0;
+  border: 0px;
+  outline: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 @font-face {
   font-family: "Huawei Sans";
@@ -77,4 +77,127 @@
 .box4 {
   align-items: center;
   text-align: center;
+}
+.box41 {
+  overflow: hidden;
+}
+.box41 img {
+  height: 397px;
+}
+.box44 img {
+  width: 396px;
+  height: auto;
+}
+.b4 {
+  background-color: lightgrey;
+}
+.d1 {
+  position: relative;
+}
+
+.d2 {
+  position: absolute;
+}
+/*************************************** 5th part *************************/
+.box5 {
+  position: relative;
+}
+.button2 {
+  position: absolute;
+  left: 45%;
+  top: 220px;
+}
+
+/*************************************** 6th part *************************/
+.card {
+  margin-bottom: 30px;
+  height: 469px;
+  overflow: auto;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.button3 {
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.box6 i {
+  font-size: medium;
+}
+.box66 h5:hover {
+  color: red;
+}
+/******************************************7th part**************************/
+
+footer {
+  background-color: #f8f9fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c2f38;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #6c757d;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 12px;
+}
+
+footer .social-icons a:hover {
+  color: #007bff;
+}
+
+footer .footer-bottom {
+  font-size: 14px;
+  color: #6c757d;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer .footer-bottom a {
+  color: #007bff;
+}
+
+footer .footer-bottom a:hover {
+  text-decoration: underline;
+}
+.ic {
+  background-color: #6c757d;
+  font-size: 30px;
+}
+.box77 {
+  list-style-type: none;
+}
+.box77 li a {
+  text-decoration: none;
+  color: black;
 }
